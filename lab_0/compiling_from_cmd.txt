@@ -1,0 +1,5 @@
+g++ nome_file.cpp -o nome_file -I/usr/local/include/opencv4 -lopencv_core -lopencv_highgui -lopencv_imgcodecs
+
+-I means from where we should pick the includes (it's the path of the opencv headers)
+-l means the library we are using (remember that you have to put also libraries that are used in the single library 
+you include)
